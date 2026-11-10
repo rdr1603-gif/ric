@@ -1,0 +1,46 @@
+/*! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */
+/*! modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+@tailwind base;
+
+/*! favorite normalizations */
+html{
+  -webkit-text-size-adjust:100;-moz-font-feature-settings:"tnum";-moz-font-language-features:"tnum";-moz-font-variant-numeric:tabular-nums;font-variant-numeric:tabular-nums;
+}
+body{
+  line-height:inherit;
+}
+svg{
+  overflow:hidden;
+}
+table{
+  border-collapse:collapse;
+}
+h1,h2,h3,h4,h5,h6{
+  line-height:inherit;
+}
+textarea{
+  resize:vertical;
+}
+a{
+  color:inherit;
+  text-decoration:inherit;
+}
+
+/*! tailwindcss components */
+@tailwind components;
+
+/*! tailwindcss utilities */
+@tailwind utilities;
+
+/* Custom variables for the padel voting app */
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a2e;
+  --card: #f8f9fa;
+  --border: #e2e8f0;
+  --padel-dark: #1a1a2e;
+  --padel-blue: #0f3460;
+  --padel-electric: #7dffc0;
+  --padel-green: #38bdf8;
+  --padel-light: #f0fdf4;
+}
